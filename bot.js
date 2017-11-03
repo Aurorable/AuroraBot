@@ -17,8 +17,8 @@ client.on("message", (message) => {
 client.login(process.env.BOT_TOKEN);
 
 //constants
-let prefix=".";
-const params;
+//let prefix=".";
+//const params;
 
 //FUNCTIONS GO BELOW HERE
 //Bot Owner Only Commands
