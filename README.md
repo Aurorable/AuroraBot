@@ -1,0 +1,2 @@
+# AuroraBot
+Hosted via Horoku
