@@ -22,6 +22,7 @@ const params;
 
 //FUNCTIONS GO BELOW HERE
 //Bot Owner Only Commands
+/*
 client.on("message", (message)=>{
   if(!message.content.startsWith(prefix)) return;
   if(message.author != process.env.OWNER_ID){
@@ -32,3 +33,4 @@ client.on("message", (message)=>{
     message.channel.send("Hello @"+OWNER_ID+"!");
   }
 });
+*/
