@@ -16,14 +16,10 @@ client.on("message", (message) => {
 
 client.login(process.env.BOT_TOKEN);
 
-//constants
-//let prefix=".";
-//const params;
-
 //FUNCTIONS GO BELOW HERE
 //Bot Owner Only Commands
-/*
 client.on("message", (message)=>{
+  let prefix=".";
   if(!message.content.startsWith(prefix)) return;
   if(message.author != process.env.OWNER_ID){
     message.channel.send("You do not have permission to access this command.");
@@ -33,4 +29,3 @@ client.on("message", (message)=>{
     message.channel.send("Hello @"+OWNER_ID+"!");
   }
 });
-*/
