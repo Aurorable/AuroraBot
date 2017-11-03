@@ -1,2 +1,2 @@
-# AuroraBot
-Hosted via Horoku
+# HerokuBot
+My Discord Bot Running on Heroku

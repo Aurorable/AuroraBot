@@ -1,0 +1,12 @@
+{
+  "name":"AuroraBot",
+  "description":"Aurora's botter half",
+  "version":"0.0.0",
+  "main":"bot.js",
+  "scripts":{
+    "start":"node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.2.1"
+  }
+}
