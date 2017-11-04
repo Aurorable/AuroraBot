@@ -21,7 +21,7 @@ client.on("message", (message) => {
 client.on("message", (message)=>{
   let prefix=".";
   if(!message.content.startsWith(prefix)) return;
-  if(message.author.id != OWNER_ID){
+  if(message.author.id != process.env.OWNER_ID){
     message.channel.send("You do not have permission to access this command.");
     return;
   }
