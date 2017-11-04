@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-client.login(BOT_TOKEN);
+client.login(process.event.BOT_TOKEN);
 client.on("ready", () => {
   console.log("I am ready!");
   //client.user.setStatus("dnd");
